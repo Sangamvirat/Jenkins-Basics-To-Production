@@ -6,7 +6,7 @@ app = Flask(__name__)
 def hello():
     return jsonify(
         app="app1",
-        message="✨ Welcome to CloudWithVarJosh — app1 ✨",
+        message="✨ Welcome to Sangamworld — app1 ✨",
         subtitle="Your friendly demo microservice",
         tip="Built with Flask · shipped by Jenkins · running in Docker"
     )
